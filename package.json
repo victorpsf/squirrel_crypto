@@ -1,0 +1,20 @@
+{
+  "name": "squirrel_crypto",
+  "version": "1.0.1",
+  "description": "Simples modulo para trabalho com criptografia utilizando nodejs com biblioteca nativa",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victorpsf/squirrel_crypto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victorpsf/squirrel_crypto/issues"
+  },
+  "homepage": "https://github.com/Victorpsf/squirrel_crypto#readme"
+}
