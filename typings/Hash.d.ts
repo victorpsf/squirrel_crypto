@@ -1,5 +1,5 @@
-import HashCipher from '../types/hash_cipher'
-import encoding from '../types/encoding_save'
+import HashCipher from './types/hash_cipher'
+import encoding from './types/encoding_save'
 
 declare namespace Hash {
   interface HashOptions {
@@ -12,6 +12,9 @@ declare namespace Hash {
 
 declare class Hash {
   constructor(args?: Hash.HashOptions)
+
+  setAlgorithm(algorithm: HashCipher): void;
+  setEncoding(encoding: encoding): void;
 
   update(value: string): string
   static update(value: string): string
