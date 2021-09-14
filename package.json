@@ -1,6 +1,6 @@
 {
   "name": "squirrel_crypto",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simples modulo para trabalho com criptografia utilizando nodejs com biblioteca nativa",
   "main": "index.js",
   "directories": {
